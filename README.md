@@ -1,24 +1,20 @@
-# README
+# Install & Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+bundle install
 
-Things you may want to cover:
+cp config/database_example.yml config/database.yml
+vim config/database.yml # update with username & password
+rails db:create
+rails db:migrate
+```
 
-* Ruby version
+Run feature tests
+```
+cucumber
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run rpec tests
+```
+rspec
+```
