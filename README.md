@@ -18,3 +18,11 @@ Run rpec tests
 ```
 rspec
 ```
+
+Download demo video
+
+[Demo](https://github.com/chalmagean/codecamp/blob/master/demo.mp4)
+
+Download slides
+
+[Keynote](https://github.com/chalmagean/codecamp/blob/master/slides.key) or [PDF](https://github.com/chalmagean/codecamp/blob/master/slides.pdf)
